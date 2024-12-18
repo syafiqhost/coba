@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toko Parfum Premium dengan Beragam Pilihan Parfum Berkualitas">
+    <title>Parfum Elegance</title>
+    <style>
+        /* Reset and basic styling */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        /* Navigation Bar */
+        
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+        
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        
+        header nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+        
+        header nav ul li {
+            margin-left: 20px;
+        }
+        
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        /* Hero Section */
+        
+        .logo a {
+            text-decoration: none;
+        }
+        
+        .logo a img {
+            width: 20%;
+            height: auto;
+        }
+        
+        .hero {
+            background-image: url(bg.avif);
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+            line-height: 1.6;
+        }
+        
+        .hero-text h2 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        
+        .hero-text p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        
+        .cta-button {
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+        /* Products Section */
+        
+        .products {
+            background-color: #fff;
+            padding: 50px 20px;
+        }
+        
+        .products .section-title {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+        }
+        
+        .product-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        
+        .product-card {
+            width: 30%;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .product-card img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .product-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        
+        .product-card .btn {
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        /* About Section */
+        
+        .about {
+            padding: 50px 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        
+        .about p {
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        /* Contact Section */
+        
+        .contact {
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+        
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .contact form input,
+        .contact form textarea {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        
+        .contact form button {
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+        /* Footer */
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href=""><img src="logo.url" alt="logo onestop"></a>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Temukan Parfum Premium Favorit Anda</h2>
+            <p>Parfum berkualitas untuk setiap kesempatan.</p>
+            <a href="#products" class="cta-button">Lihat Produk</a>
+        </div>
+    </section>
+
+    <!-- Produk Section -->
+    <section id="products" class="products">
+        <h2 class="section-title">Katalog Produk</h2>
+        <div class="product-container">
+            <!-- Produk 1 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300" alt="Parfum 1">
+                <h3>Parfum A</h3>
+                <p>Parfum segar dengan aroma floral.</p>
+                <a href="#" class="btn">Beli Sekarang</a>
+            </div>
+            <!-- Produk 2 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300" alt="Parfum 2">
+                <h3>Parfum B</h3>
+                <p>Parfum dengan aroma oriental yang eksklusif.</p>
+                <a href="#" class="btn">Beli Sekarang</a>
+            </div>
+            <!-- Produk 3 -->
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300" alt="Parfum 3">
+                <h3>Parfum C</h3>
+                <p>Aroma manis dan memikat.</p>
+                <a href="#" class="btn">Beli Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">Tentang Kami</h2>
+        <p>Elegance Parfume adalah toko parfum premium yang menawarkan berbagai pilihan parfum berkualitas. Kami percaya bahwa setiap orang berhak merasakan keharuman yang dapat meningkatkan rasa percaya diri. Temukan koleksi parfum terbaik kami dan temui
+            aroma yang mencerminkan kepribadian Anda.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Kontak Kami</h2>
+        <p>Jika Anda memiliki pertanyaan atau ingin melakukan pemesanan, jangan ragu untuk menghubungi kami!</p>
+        <form id="contact-form">
+            <input type="text" placeholder="Nama Anda" required>
+            <input type="email" placeholder="Email Anda" required>
+            <textarea placeholder="Pesan Anda" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Elegance Parfume | Semua Hak Cipta Dilindungi</p>
+    </footer>
+
+    <script>
+        // JavaScript for form validation or interactivity
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevent the form from refreshing the page
+            alert("Pesan Anda telah dikirim!");
+        });
+    </script>
+</body>
+
+</html>
